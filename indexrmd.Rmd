@@ -1,0 +1,15 @@
+---
+title: "index.Rmd"
+---
+
+`index.Rmd` is just your landing page.  You can have as little or as much content as you want here.  When readers click on your site, they will see this page first.
+
+A minimal `index.Rmd` would look like:
+
+```
+---
+title: "My website"
+---
+
+Here is my website.
+```

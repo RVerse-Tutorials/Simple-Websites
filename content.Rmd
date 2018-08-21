@@ -1,0 +1,39 @@
+---
+title: "content.Rmd"
+---
+
+You can now add as many Rmarkdown files as you want for your content.  Each one will be processed into an html file.  For example in `Test Website`, we have two files, `about.Rmd` and `contact.Rmd`.  Your Rmd files should have the yaml at top and then your Rmarkdown content.
+
+Here is a simple example.
+
+```
+---
+title: Simple Rmd File
+---
+
+Here is a simple file.
+```
+
+`about.Rmd` is a fuller Rmd file with R code and figures.
+
+If you want the file linked to in your top nav bar, then add it to `_site.yml`.   
+
+```
+name: "my-website"
+output_dir: "."
+navbar:
+  title: "My Website"
+  left:
+    - text: "About"
+      href: about.html
+    - text: "Contact"
+      icon: fa-user-circle
+      href: contact.html
+output:
+  html_document:
+    theme: readable
+    toc_depth: 3
+    toc_float:
+      collapsed: false
+```
+

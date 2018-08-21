@@ -1,0 +1,30 @@
+name: "rmd-websites"
+output_dir: "."
+navbar:
+  title: "Website from Rmds"
+  left:
+    - text: "Set-up"
+      icon: fa-clone
+      href: setup.html
+    - text: "Basics"
+      icon: fa-cubes
+      href: basics.html
+    - text: "_site.yml"
+      icon: fa-cog
+      href: site.html
+    - text: "index.Rmd"
+      icon: fa-info-circle
+      href: indexrmd.html
+    - text: "Content"
+      icon: fa-info-circle
+      href: content.html
+    - text: "Extras"
+      icon: fa-info-circle
+      href: extras.html
+output:
+  html_document:
+    theme: readable
+    toc_depth: 3
+    toc_float:
+      collapsed: false
+    css: styles.css

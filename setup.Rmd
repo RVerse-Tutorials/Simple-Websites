@@ -1,0 +1,17 @@
+---
+title: "Set-up"
+---
+
+Set-up:
+
+1. Go to https://github.com/eeholmes/Test-Website and copy all the files into a directory.
+
+- If GitHub Desktop works for you, then you can click 'Clone or download' and then click open in Desktop.
+
+- If GitHub Desktop is not working for you, then click 'Clone or download' and then download a zip file and unzip on your computer.
+
+2. Open RStudio and 'New Project' in the upper right.  Then select 'From Existing Directory' and select the directory where the 'Test-Website' files are.
+
+3. From RStudio, click 'Build' from upper right and then 'Build Website'.  Your website should open.  You can select 'View in browser'.
+
+- You can also right click on 'index.html' from the files, and select 'open in browser'.

@@ -1,0 +1,11 @@
+---
+title: "Required files"
+---
+
+There are two required files for a website plus your content (your Rmarkdown files).
+
+The first required file is `_site.yml` which is your configuration file.
+
+The second required file is `index.Rmd` which is your landing page or page #1.
+
+Your content is specified in additional Rmarkdown files.  Not required, but your website is not very interesting without content.

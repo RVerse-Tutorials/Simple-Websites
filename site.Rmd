@@ -1,0 +1,26 @@
+---
+title: "_site.yml"
+---
+
+The `_site.yml` specifies the basic info about your site and the navigation bar at top.
+
+```
+name: "my-website"
+output_dir: "."
+navbar:
+  title: "My Website"
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "About"
+      icon: fa-bullhorn
+      href: about.html
+output:
+  html_document:
+    theme: readable
+    toc_depth: 3
+    toc_float:
+      collapsed: false
+```
+
