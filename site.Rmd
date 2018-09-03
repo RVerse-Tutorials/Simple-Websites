@@ -16,6 +16,11 @@ navbar:
     - text: "About"
       icon: fa-bullhorn
       href: about.html
+      menu:
+        - text: "Page A"
+          href: page_a.html
+        - text: "Page B"
+          href: page_b.html
 output:
   html_document:
     theme: readable

@@ -13,13 +13,10 @@ navbar:
       icon: fa-cog
       href: site.html
     - text: "index.Rmd"
-      icon: fa-info-circle
       href: indexrmd.html
     - text: "Content"
-      icon: fa-info-circle
       href: content.html
     - text: "Extras"
-      icon: fa-info-circle
       href: extras.html
 output:
   html_document:
